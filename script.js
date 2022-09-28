@@ -1,7 +1,44 @@
+/* =================================
+  javascript basics
+
+  comments
+
+  data types
+
+  variables
+
+  math: + - * / %
+
+  math etc: ++ -- += < > <=
+
+  STRINGS
+
+    escapes for strings \n
+
+    concatenate strings and variables
+
+    stringVariable.length;
+    
+    bracket notation on strings console.log(variableName[1]};
+
+    stringVariable[stringVariable.length - n];
+
+  ARRAYS
+    
+    array = ['a', 1, true, 1.3];
+
+    nestedArray = [['this', 2], ['that', 3]];
+
+    accessing arrays and nested arrays array[2]; = true, nestedArray[1][0]; = 'that'
+    
+    push(), pop(), shift(), unshift()
+
+==================================== */
+
 const ONCE = 'string';
 let num = 1; 
 let bool = true;
-let arr = [1, 2, 3, 4, 5];
+let arr = ['badger1', 'badger2', 'badger3'];
 let obj = {
   name: 'onelle',
   age: 42,
@@ -9,19 +46,19 @@ let obj = {
   password: 'abcdefg123'
 };
 
+console.log(arr);
+// pop off the end
+arr.pop();
+console.log(arr);
+// push on the end
+arr.push('mushroom3');
+console.log(arr);
+// shift off the front
+arr.shift();
+console.log(arr);
 
-/* =================================
-  javascript basics
-
-  comments
-
-  variables
-
-  math: + - * / %
-
-
-
-==================================== */
+arr.unshift('mushroom1');
+console.log(arr);
 
 
 // while(a < 5) {
