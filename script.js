@@ -1,5 +1,5 @@
 /* =================================
-  javascript basics
+  basic javascript
 
   comments
 
@@ -7,9 +7,13 @@
 
   variables
 
-  math: + - * / %
+  MATH
 
-  math etc: ++ -- += < > <=
+    math: + - * / %
+
+    math etc: ++ -- += < > <= == === != !== && || 
+
+    Math.floor(); Math.random(); 
 
   STRINGS
 
@@ -32,6 +36,52 @@
     accessing arrays and nested arrays array[2]; = true, nestedArray[1][0]; = 'that'
     
     push(), pop(), shift(), unshift()
+
+
+  FUNCTIONS
+
+    function nameMeAnything(setParameters, moreThanOne) {
+      do something;
+      and use the, setParameters, variables;
+    }
+
+  CONDITIONAL LOGIC
+
+    if(something is something) {
+      do something;
+    }
+
+    if(here && there) {
+      do one thing;
+    } else(near || far) {
+      do another thing;
+    }
+
+    switch(variable){
+      case: 1;
+        updateSomething: 'updating';
+        break;
+    }
+
+  OBJECTS
+    obj = {
+      a: 'list',
+      of: 'non-sense'
+    }
+
+  ITERATE
+
+    while(a < 5) {
+      console.log('hello steven');
+      a ++;
+    }
+
+
+    let a = 1;
+    do {
+      console.log('this is fun');
+    } while (a < 7);
+    a++;
 
 ==================================== */
 
@@ -59,16 +109,3 @@ console.log(arr);
 
 arr.unshift('mushroom1');
 console.log(arr);
-
-
-// while(a < 5) {
-// console.log('hello steven');
-// a ++;
-// }
-
-
-// let a = 1;
-// do {
-//   console.log('this is fun');
-// } while (a < 7);
-// a++;
