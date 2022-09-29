@@ -98,12 +98,46 @@
 
 
 /* =================================== 
+	
+	ES6
 
-  
+	let & const
+	freeze object
+	arrow functions
+	default function parameters
+	spread operator
+	template literals
 
 ==================================== */
 
+/* ====================================
+ 
+ REGEX
 
+  let sampleSentence = "a fox jumped over"
+  let sampleRegex = /fox/;
+	.TEST()
+  let testing = sampleRegex.test(sampleSentence);
+	OR operator |
+	let sampleRegex = /a|fox|over/;
+	i = case insensitivity
+	let sampleRegex = /A|FOX|OVER/i;
+	.MATCH()
+  let testing = sampleSentence.match(sampleRegex);
+	g = return all matches
+	. = wildcard symbol
+	/[abcde]/ = search multi possibilities on single character
+	/[a-z]/ = match range of alphabet
+	/[1-5]/ = match range of number
+  /[^a]/ = don't match characters after ^
+	/a+/ = match all 'a' characters
+	? = lazy matching 
+	/\w/ = shorthand for /[A-Za-z0-9_]/
+	/\W/ = opposite of \w
+
+
+
+==================================== */
 
 
 
