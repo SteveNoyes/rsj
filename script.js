@@ -1,6 +1,8 @@
 /* =================================
-  basic javascript
+  this should be in a different area
 
+	basic javascript
+	
   comments
 
   data types
